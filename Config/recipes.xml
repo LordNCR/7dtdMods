@@ -1,0 +1,30 @@
+<configs>
+	<!-- Removing old recipes -->
+	<remove xpath="/recipes/recipe[@name='resourceCobblestones']"/>
+	<remove xpath="/recipes/recipe[@name='resourceCement']"/>
+	<remove xpath="/recipes/recipe[@name='resourceConcreteMix']"/>
+
+	<!-- Adding new recipes -->
+	<append xpath="/recipes">
+	
+	<!-- Cobblestone Rocks in forge -->
+	<recipe name="resourceCobblestones" count="1" craft_time=".5" material_based="true" craft_area="forge">
+		<ingredient name="unit_stone" count="5"/>
+		<ingredient name="unit_clay" count="5"/>
+	</recipe>
+
+	<!-- Cement x2 (manual crafting) -->
+	<recipe name="resourceCement" count="2"  craft_time="2">
+		<ingredient name="resourceRockSmall" count="1"/>
+		<ingredient name="resourceCobblestones" count="1"/>
+	</recipe>
+	
+	<!-- Concrete Mix x2 in Cement Mixer -->
+	<recipe name="resourceConcreteMix" count="2" craft_time="3" craft_area="cementMixer" tags="cementMixerCrafting">		
+		<ingredient name="resourceRockSmall" count="3"/>
+		<ingredient name="resourceCrushedSand" count="2"/>
+		<ingredient name="resourceCement" count="1"/>
+	</recipe>
+
+	</append>
+</configs>
