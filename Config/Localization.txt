@@ -1,7 +1,7 @@
 Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian
 
 resourceCobblestones,items,Item,,,Cobblestone Rocks,,,,,,,,,,Булыжники
-resourceCobblestonesDesc,items,Item,,,Cobblestone rocks or Clinker can be used to build surprisingly sturdy flagstone/cobblestone structures and to craft cement.,,,,,,,,,,"Булыжники или Клинкер может использоваться для строительства удивительно прочных конструкций из булыжника и крафта цемента."
+resourceCobblestonesDesc,items,Item,,,Cobblestone rocks or Clinker can be used to build surprisingly sturdy flagstone/cobblestone structures and to craft cement.,,,,,,,,,,"Булыжники или Клинкер могут использоваться для строительства удивительно прочных конструкций из булыжника и крафта цемента."
 resourceConcreteMix,items,Item,,,Concrete Mix,,,,,,,,,,Бетон
 resourceConcreteMixDesc,items,Item,,,"Craft in Cement Mixer: x2. Can be used as a resource to upgrade rebar frames, cobblestone or brick into solid concrete walls and to craft concrete blocks.",,,,,,,,,,"Крафт в бетономешалке: х2. Используется для превращения арматурных конструкций, булыжника и кирпича в прочные бетонные стены или для изготовления бетонных блоков."
 resourceCement,items,Item,,,Cement,,,,,,,,,,Цемент
