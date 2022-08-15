@@ -4,6 +4,6 @@
     <Name value="Better Cement" />
     <Description value="Better way to craft cement." />
     <Author value="LordNCR" />
-    <Version value="0.3" compat="A20,A19" />
+    <Version value="0.0.4" compat="A20,A19" />
   </ModInfo>
 </xml>
